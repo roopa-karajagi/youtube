@@ -1,0 +1,15 @@
+.sidebar-component {
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    font-family: "Roboto","Arial",sans-serif;
+    font-size: 1.4rem;
+    line-height: 2rem;
+    font-weight: 400;
+    color:black
+}
+
+.sidebar-component > div.first-tile:first-child {
+    margin-top:16px;
+    margin-bottom:16px
+}

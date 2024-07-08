@@ -1,0 +1,37 @@
+# Higher Order functions
+--> are the functions which takes functions and return a functions
+# Higher Order Components
+--> are the functions which takes  component and return another component
+
+debouncing in search functionality
+
+Debouncing :
+
+typing slow = 200ms
+typing fast = 30ms
+ 
+ using debouncing it increases the performance:bcz API calls is very heavey , we need to give the user best experience 
+
+ - iphone pro max => 14 letter * 1000 => 14000
+ - with debouncing => 3 API calls * 1000 => 3000
+
+ debouncing with 200ms -->
+
+ - if difference between 2 Key strokes is < 200ms - DECLINE API calls
+ - >200ms make an API call
+
+ youtube debouncing time is very less
+
+Normal Variable don't re-render the component , state variable re-render the component.
+
+useRef --> this one don't re-render the component , but persists the value.
+
+Data Layer --> Get the Data Live
+UI Layer --> Update the UI
+
+Data(Live)
+--> WebSockets --> UI -> Server (No regular Interval) --> Trading Apps, Watsapp , insta chats, which has to be very keen on the chats
+--> API Polling --> UI <-- Server(Regular Interval) --> Cricbuzz, youTUbe comments ,you tube Live chats (these are fetched after some interval)
+
+
+
